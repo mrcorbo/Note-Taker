@@ -1,13 +1,3 @@
-const express = require('express');
-const path = require('path');
-const noteData = require ('../../../db/db.json');
-const fs = require('fs');
-const util = require('util');
-
-
-const app = express();
-const PORT = 3001;
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
